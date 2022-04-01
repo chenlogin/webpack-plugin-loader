@@ -1,2 +1,7 @@
-# webpack-plugin-loader
-loader（加载器）和 plugin（插件）
+This project has been created using **webpack-cli**, you can now run
+
+```
+npm run build
+```
+
+to bundle your application
