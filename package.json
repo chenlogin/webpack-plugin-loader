@@ -1,0 +1,22 @@
+{
+  "name": "webpack-plugin-loader",
+  "version": "1.0.0",
+  "description": "plugin and loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && webpack --node-env=development",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.4.2",
+    "webpack-cli": "^4.9.2"
+  }
+}
