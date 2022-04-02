@@ -54,11 +54,18 @@ const config = {
                 },
               ],
             },
+            // {
+            //   test: /\.scss/,
+            //   use: ["styleLoader", "sassLoader"],
+            //   //include: [srcPath]
+            // }
         ],
     },
     resolveLoader: {
       alias: {
         'example-loader': require.resolve('./my-loader/my-webpack-loader/src/'),
+        "sassLoader": path.resolve(__dirname, "./my-loader/my-sass-loader/src/sassLoader.js"),
+        "styleLoader": path.resolve(__dirname, "./my-loader/my-sass-loader/src/styleLoader.js")
       },
     },
 };
